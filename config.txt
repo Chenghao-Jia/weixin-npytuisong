@@ -4,7 +4,7 @@
 "app_id": "wx634a280ee1fad53d",
 
 # 公众号appSecret，替换掉下方文字内容，不要删除双引号
-"app_secret": "5a8845fe8a6929b387a9341eff85a4eb",
+"app_secret": "fee9306f3b1225746a5af8545b2c0c68",
 
 # 模板消息接口里的模板ID，替换掉下方文字内容，不要删除双引号
 "template_id": "DNvF9k7F1g2fUUl_Lh0uSa5jceBwhIokGKvICOkFfc4",
