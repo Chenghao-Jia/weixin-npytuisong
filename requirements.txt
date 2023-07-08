@@ -1,5 +1,0 @@
-requests
-http.client
-urllib
-json
-zhdate
