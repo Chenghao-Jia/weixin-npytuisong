@@ -347,9 +347,13 @@ if __name__ == "__main__":
     # 获取词霸每日金句
     note_ch, note_en = get_ciba()
     #彩虹屁
-    pipi = caihongpi()
+    pipi = "111111111111111111111111111111"
+    while len(pipi) > 20:
+        pipi = caihongpi()
     #健康小提示
-    health_tip = health()
+    health_tip = "111111111111111111111111111111"
+    while len(health_tip) > 20:
+        health_tip = health()
     #下雨概率和建议
     real = real()
     #励志名言
