@@ -287,6 +287,8 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
             }
         }
     }
+    # print("date:" + data["data"]["date"]["color"])
+    # print("date:" + data["data"]["city"]["color"])
     for key, value in birthdays.items():
         # 获取距离下次生日的时间
         birth_day = get_birthday(value, year, today)
@@ -363,6 +365,7 @@ if __name__ == "__main__":
     # 公众号推送消息
     for user in users:
         send_message(user, accessToken, city, weather, max_temperature, min_temperature, pipi, lizhi, real, note_en, note_ch, health_tip, lucky_)
+
     import time
     time_duration = 3.5
     time.sleep(time_duration)
